@@ -1,0 +1,162 @@
+CLOUD
+deployment models 
+service models
+Cloud native terms 
+
+lunch break 
+
+AWS - Ec2 , S3 
+
+Pizza
+DIY  - physical kitchen 
+order from vendors - dominoz, pizza hut, papa johns.. - Virtual kitchen 
+
+Data center 
+DIY 
+vendors - CSP - Cloud service providers 
+AWS, GCP , Azure.. Alibaba
+
+https://aws.amazon.com/
+https://cloud.google.com/
+
+
+Data center - 
+security, servers, storage, coolers, shredders, power, skilled human resources, 
+space, ... 
+https://www.youtube.com/watch?v=zDAYZU4A3w0
+
+
+utilities - water, lpg, electricity, data plan, 
+
+Deployment models  - CAR 
+Public  - ola/ubers
+price, availability, service, no maintainence, no admin, no upfront investment, no space rquirement 
+lack of privacy, lack of security
+Use case : predefined outburst 
+flash sales - ecommerce, ticket booking, business deals... 
+unpredicted outburst - natural calamities.. 
+ 
+private - own car 
+parking, maintainence, adm, upfront investment 
+security , control 
+sensitive.. 
+
+Hybrid - ola rental, zoom cars  combo - dev -test on premise , production is on cloud 
+private + public,. 
+
+Community - accessories 
+yammer , facebook, 
+
+**************
+
+Service models - Shared responbility model 
+
+IaaS  - Infra - compute(ec2) , network, storage((s3), database  - highest responsibility on you 
+
+PaaS - Platform - focus on my application than on operations 
+Elastic beanstalk of AWS, Google app engine , IDEs[Integrated development environment] - eclipse, toad, netbean,s intellij.. 
+android developer-android studio 
+SaaS - software - o365, sharepoint, , Human resource maangement systems(HRMs) ... 
+Gsuite [ gmail, spreadsheet, google docs..googlecalendar)  - least responbility
+
+FaaS - function as a service - writing code 
+Lambda, cloud functions .. 
+
+****************
+
+Cloud native terms : 
+1. Microservices 
+2. Devops 
+3. CICD - Continuous integration and Continuous delivery 
+4. Containers 
+
+water fall model 
+
+requirement gatherings - design - code - testing - deployment 
+banking - monolitic 
+- internet
+mobile 
+ATM 
+branch .. 
+Microservices 
+
+Amazon - Ec2
+Amazon - S3 
+
+*******************************
+recap
+cloud basics
+- deployment models - Public, private, hybrid, community 
+- service models - saas, Paas, iaas, faas... 
+cloud native - containers, microservices, devops, cicd
+
+AWS - global infra 
+- regions 
+- AZ 
+- edge location 
+
+Ec2 creation - compute 
+Elastic block storage [ disks] 
+AMI - instance 
+Firewalls - security group 
+
+Public IP, private IP 
+means of communication 
+
+SSH - into Linux VM - secure shell 
+RDP - into Windows VM[ Remote desktop protocol]
+
+s3 - storage - static files 
+public .versioniing..
+Qwiklabs
+
+Ebs vs S3 
+Instance connected 						Global
+Block store								object store 
+
+States of instance 
+stop-reboot -shutdown- terminate 
+
+*************************
+GCP 
+https://cloud.google.com/customers/#/
+
+https://cloud.google.com/ - learnign, documentation 
+https://console.cloud.google.com/ - hands on , practice 
+
+
+GCP - REgions and Zones 
+https://cloud.google.com/about/locations/#network-tab
+https://cloud.google.com/about/locations/#regions-tab
+
+GCP - Project 
+collection of all resources 
+project ID( editable only time of creation) - name(can be given by you) - number (GCP
+ generated) 
+
+Billing - budgets and alerts - all project- all products.. 
+ 
+ IAM - Identity and Access management 
+ 
+Google Compute Engine - VM creation + disk space - Internal /external IP 
+sample app deployment - Webserver 
+
+3 tier arch 
+User <-> reqeust <-> Web layer <-> app/business logic  <-> DB  
+Similar to apache we've tomcat, IIS... 
+
+ 
+Linux OS -> Apache webserver 
+location to store my static files -s3 (AWS) , Google Cloud storage(GCS)
+
+Bucket  -> objects 
+
+STorage - static files 
+1. Hot storage  - freqently accessed - Multi regional, regional 	
+2. Cold storage  - infrequent accessed  - Nearline, Coldline 
+
+CCTV footages, application logs 
+
+https://storage.googleapis.com/bucket1rajini/GAE.txt
+
+>5TB -> Transfer appliance 

@@ -1,0 +1,24 @@
+References: https://firebase.google.com/docs/functions/get-started
+
+1. Create a Firebase Project
+
+2. Set up Node.js and the Firebase CLI
+- npm install -g firebase-tools
+- npm install firebase-functions@latest firebase-admin@latest --save
+- npm install -g firebase-tools
+
+3. Initialize Firebase SDK for Cloud Functions
+- firebase login
+- firebase init functions
+
+4. Go to index.js, add the following code:
+
+// The Cloud Functions for Firebase SDK to create Cloud Functions and setup triggers.
+const functions = require('firebase-functions');
+
+// The Firebase Admin SDK to access the Firebase Realtime Database.
+const admin = require('firebase-admin');
+admin.initializeApp();
+
+5. Deploy and execute
+firebase deploy --only functions

@@ -2,7 +2,7 @@
 
 Just for reference and self learning.
 
-Reference Website: https://www.qwiklabs.com/
+Reference Tutorial Website: https://www.qwiklabs.com/
 
 Cloud Platform: 
 1. Google Cloud Platform (https://cloud.google.com/)
